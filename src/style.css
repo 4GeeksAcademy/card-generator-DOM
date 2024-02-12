@@ -1,1 +1,40 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+.carta-contenedor {
+  width: 320px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10%;
+}
+.num-carta {
+  width: 100%;
+  height: 50%;
+}
+.simbolo {
+  width: 30%;
+  height: auto;
+  padding: 4%;
+}
+.girar {
+  transform: rotate(180deg);
+  float: right;
+}
+.cont-simbolo {
+  width: 100%;
+  height: 25%;
+}
+
+.numero {
+  font-size: 100px;
+}
+
+.centro {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
